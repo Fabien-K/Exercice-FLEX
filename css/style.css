@@ -10,10 +10,11 @@ h1, h2, h3{
 /*-----------------------header------------------------*/
 header{
   background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-nav{
-  /* width: 100%; */
-}
+
 header ul{
   display: flex;
   flex-direction: row;
